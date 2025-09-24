@@ -5,6 +5,7 @@ logger.add(
     format="{time:YYYY-MM-DD HH:mm:ss} | {level} | {module}:{function}:{line} - {message}",
     level="INFO",
 )
+logger.info("Logger has started")
 
 
 def main():
